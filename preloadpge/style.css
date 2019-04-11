@@ -1,0 +1,129 @@
+body {
+     background: #e84118;
+}
+.preloader-site {
+    overflow: hidden;
+}
+
+
+
+.load {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/**/
+
+.form-recherche {
+
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+
+}
+.recherche {
+ background: #fadaff;
+ color: red;
+ height: 30px;
+ border-radius: 40px;
+ padding: 10px;
+}
+
+.recherche:hover > .recherche-text {
+ width: 240px;
+ padding: 0 6px;
+}
+
+.recherche:hover > .recherche-btn {
+ color: #e84118;
+}
+
+.recherche-btn {
+ color: #e84118;
+ float: right;
+ background: #fadaff;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: 0.4s;
+ color: #e84118;
+ cursor: pointer;
+ border-style: none;
+}
+* {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+.recherche-btn > i {
+ font-size: 30px;
+}
+
+.recherche-text {
+ border: none;
+ background: none;
+ outline: none;
+ float: left;
+ padding: 0;
+ color: #000;
+ font-size: 16px;
+ transition: 0.4s;
+ /*line-height: 4px;*/
+ width: 0px;
+ font-weight: bold;
+}﻿
+
+
+
+.services-item {
+    display: flex;
+    flex-direction: column;
+}
+.fa-map-marker,
+.fa-check
+{
+     -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .4s ease-in-out;
+    color: red;
+    text-align: center;
+    font-size: 60px;
+    width: 50px;
+    pointer-events: auto;
+}
+.fa-map-marker:hover,
+.fa-check:hover, .fa-handshake-o:hover {
+
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.fa-handshake-o {
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .4s ease-in-out;
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+.fa-icon2 {
+    margin-bottom: 20px !important;
+    border-radius: 100%;
+    /*background-color: aliceblue;*/
+    margin: auto auto;
+    padding: 15px 15px;
+}
+.fa-icon {
+    margin-bottom: 20px !important;
+    border-radius: 100%;
+    /*background-color: aliceblue;*/
+    margin: auto auto;
+     padding: 10px 15px;
+}
